@@ -1,0 +1,892 @@
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:mqtt:failed to receive on socket: [Errno 104] Connection reset by peer
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:mqtt:failed to receive on socket: [Errno 104] Connection reset by peer
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+INFO:pykafka.connection:Attempt 0: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at 10.0.0.20:9092. Check the `listeners` property in server.config.
+ERROR:pykafka.cluster:Socket disconnected during request for broker 10.0.0.20:9092. Continuing.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+INFO:pykafka.connection:Attempt 0: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at 10.0.0.20:9092. Check the `listeners` property in server.config.
+ERROR:pykafka.cluster:Socket disconnected during request for broker 10.0.0.20:9092. Continuing.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+INFO:pykafka.connection:Attempt 0: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to 10.0.0.20:9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at 10.0.0.20:9092. Check the `listeners` property in server.config.
+ERROR:pykafka.cluster:Socket disconnected during request for broker 10.0.0.20:9092. Continuing.
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+WARNING:pykafka.cluster:Topic b'#' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+WARNING:pykafka.cluster:Topic b'#' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+WARNING:pykafka.cluster:Topic b'#' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+WARNING:pykafka.cluster:Topic b'test' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 1 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'test'/1
+DEBUG:pykafka.topic:Adding partition b'test'/2
+DEBUG:pykafka.topic:Adding partition b'test'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 1 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+WARNING:pykafka.cluster:Topic b'hwc_message_sent' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+WARNING:pykafka.cluster:Topic b'"/hwc_message_sent"' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+WARNING:pykafka.cluster:Topic b'/hwc_message_sent' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/1
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/2
+DEBUG:pykafka.topic:Adding partition b'hwc_message_sent'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 2 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+WARNING:pykafka.cluster:Topic b'Bingo/hwc_message_sent' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 4 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo.hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo''
+WARNING:pykafka.cluster:Topic b'Bingo/hwc_message_sent' not found. Attempting to auto-create.
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 4 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo.hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'Bingo'/1
+DEBUG:pykafka.topic:Adding partition b'Bingo'/2
+DEBUG:pykafka.topic:Adding partition b'Bingo'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.cluster:Broker version is too old to use automatic API version discovery. Falling back to hardcoded versions list.
+DEBUG:pykafka.cluster:Updating cluster, attempt 1/3
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.cluster:Discovered 2 brokers
+DEBUG:pykafka.cluster:Discovered broker id 1: b'localhost':9092
+DEBUG:pykafka.connection:Connecting to b'localhost':9092
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9092
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9092. Check the `listeners` property in server.config.
+DEBUG:pykafka.cluster:Discovered broker id 2: b'localhost':9093
+DEBUG:pykafka.connection:Connecting to b'localhost':9093
+INFO:pykafka.connection:Attempt 0: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
+INFO:pykafka.connection:Attempt 1: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+INFO:pykafka.connection:Attempt 2: failed to connect to b'localhost':9093
+INFO:pykafka.connection:[Errno 111] Connection refused
+INFO:pykafka.connection:Retrying in 300ms.
+WARNING:pykafka.broker:Failed to connect to broker at b'localhost':9093. Check the `listeners` property in server.config.
+INFO:pykafka.cluster:Discovered 4 topics
+DEBUG:pykafka.cluster:Discovered topic 'b'test''
+DEBUG:pykafka.cluster:Discovered topic 'b'hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo.hwc_message_sent''
+DEBUG:pykafka.cluster:Discovered topic 'b'Bingo''
+DEBUG:pykafka.connection:Connecting to 10.0.0.20:9092
+DEBUG:pykafka.connection:Successfully connected to 10.0.0.20:9092
+INFO:pykafka.handlers:RequestHandler.stop: about to flush requests queue
+INFO:pykafka.topic:Adding 3 partitions
+DEBUG:pykafka.topic:Adding partition b'Bingo'/1
+DEBUG:pykafka.topic:Adding partition b'Bingo'/2
+DEBUG:pykafka.topic:Adding partition b'Bingo'/0
+INFO:pykafka.producer:Starting new produce worker for broker 1
+INFO:pykafka.producer:Starting new produce worker for broker 2
+DEBUG:asyncio:Using selector: EpollSelector
+INFO:pykafka.handlers:RequestHandler worker: exiting cleanly
