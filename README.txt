@@ -5,7 +5,8 @@ Introduction
 
 This is a simple bridge between an mqtt and a Kafka broker. It may be useful for test
 deployments, air-gapped setups, and similar. In production, and with access to the cloud,
-you may be better off using Kafka Connect, or similar.
+you may be better off using tried and tested solutions with proper redundancy, such as
+Kafka Connect.
 
 Configuration
 
