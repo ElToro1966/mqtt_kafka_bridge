@@ -47,12 +47,12 @@ async def main():
     async with asyncio_mqtt.Client(hostname=mqtt_host_ip, port=mqtt_host_port) as client:
         async with client.messages() as messages:
             for mqtt_message_topic in mqtt_message_topics:
-                print(mqtt_message_topic)
+                print("MQTT message topic: " + mqtt_message_topic)
                 await client.subscribe(mqtt_message_topic)
             async for message in messages:
-                print(message.payload.decode())
+                print("Kafka message payload: " + message.payload.decode())
                 message.topic = mqtt_to_kafka_topic_conversion(message.topic)
-                print(message.topic)
+                print("Kafka message topic: " + message.topic)
                 kafka_producer.send(message.topic, message.payload)
 
 if __name__ == '__main__':
