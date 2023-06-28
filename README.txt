@@ -12,7 +12,24 @@ Configuration
 
 The configuration is done by editing config.ini. See comments in the file for details.
 
+systemd Service
 
+The bridge can be run as a service by using systemd. A service file is available for this purpose.
+Edit the service file and place it in /etc/systemd/system. Then run:
+
+sudo systemctl daemon-reload
+
+Enable the service to start at boot:
+
+sudo systemctl enable mqtt-kafka-bridge.service
+
+Start the service:
+
+sudo systemctl start mqtt-kafka-bridge.service
+
+Check the service status:
+
+sudo systemctl status mqtt-kafka-bridge.service
 
 References
 
@@ -31,4 +48,6 @@ https://pypi.org/project/asyncio-mqtt/
 4."Python MQTT Bridge Project"
 A bridge between mqtt brokers. Can be used in combination with
 the mqtt/Kafka-bridge for topic aggregation.
-http://www.steves-internet-guide.com/python-mqtt-bridge-project/
+
+5."Automating Python Scripts with Systemd: A Step-by-Step Guide"
+https://tecadmin.net/setup-autorun-python-script-using-systemd/
