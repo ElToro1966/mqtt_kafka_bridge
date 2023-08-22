@@ -6,13 +6,18 @@ import logging
 import asyncio
 import asyncio_mqtt
 from kafka import KafkaProducer
-from kafka.errors import KafkaError
+import os
 
 
-log_file = "bridge.log"
+def path_to_cwd(filename):
+    root_path = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(root_path, filename)
+
+
+log_file = path_to_cwd("bridge.log")
 logging.basicConfig(filename=log_file, encoding='utf-8', level=logging.DEBUG)
 
-config_file = "config.ini"
+config_file = path_to_cwd("config.ini")
 config = configparser.ConfigParser()
 config.read(config_file)
 
