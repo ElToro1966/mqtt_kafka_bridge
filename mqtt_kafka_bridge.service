@@ -5,7 +5,9 @@ Conflicts=getty@tty1.service
 
 [Service]
 Type=simple
+User=mqttbridge
 ExecStart=/usr/bin/python3 /usr/bin/mqtt_kafka_bridge.py
+Restart=on-abort
 StandardInput=tty-force
 
 [Install]
