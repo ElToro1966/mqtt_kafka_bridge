@@ -2,6 +2,4 @@ Add redundancy
 
 Improve error handling
 
-Translate between mqtt and Kafka topics. Kafka can only use ASCII alphanumerics, '.', '_' and '-'.
-
 Improve running of the service; safety / isolation
